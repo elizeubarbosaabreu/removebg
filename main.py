@@ -11,7 +11,7 @@ def imagem_unica():
                                     filetypes=[('Imagens', ('*.jpg', '*.jpeg', '*.png', '*.tiff', '*.webp')), ("Outras", "*.*")])
 
         output_path = asksaveasfilename(title="Escolha onde salvar sua imagem",
-                                        filetypes=[('Imagens', ('*.jpg', '*.jpeg', '*.png', '*.tiff', '*.webp')), ("Outras", "*.*")])
+                                        filetypes=[('Imagens', ('*.png')), ("Outras", "*.*")])
 
         input = Image.open(input_path)
         output = remove(input)

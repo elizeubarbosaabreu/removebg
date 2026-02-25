@@ -18,7 +18,7 @@ numpy==2.0.2
 onnxruntime==1.19.0
 opencv-python-headless==4.10.0.84
 packaging==24.1
-pillow==10.4.0
+pillow==12.1.1
 platformdirs==4.2.2
 pooch==1.8.2
 protobuf==5.28.0
